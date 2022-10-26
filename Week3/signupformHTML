@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link href="C:\Users\USER\Documents\reg tryng css.css" rel="stylesheet" >
+</head>
+
+<body>
+
+    <form action="action_page.php" >
+  <div class="form">
+    <h1>Sign Up</h1>
+            
+        <label><b>First name</b> <input  id="details" type="text" placeholder="Enter Your First Name" name="first-name" required /></label>
+        <label><b>Last name</b> <input id="details" type="text" placeholder="Enter Your Last Name" name="last-name" required /></label>
+        <label  for="gender"> <b>Gender</b> </label>
+        <select  name="gender" id="details">
+          <option value="female">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <br><br>
+        <label  ><b>Date Of Birth</b></label>
+            <input type="date" id="details" name="birthday">
+            </label>
+        <label ><b>Email</b><input id="details" type="email" placeholder="Enter Your mail:" name="email" required /></label>
+        <label ><b>Phone Number</b><input id="details"  type="number" placeholder="Enter Your Phone Number" name="phonenumber" required /></label>
+        <label ><b>Create a New Password</b><input id="details" type="password"  name="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label ><b>Confirm New Password</b><input id="details" type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+        
+        
+        <button type="button" class="signupbtn">REGISTER</button>              
+          </form>
+  </div>
+    
+</html>
