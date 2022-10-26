@@ -1,0 +1,95 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    border: none;
+    text-align:center;
+    font: courier;
+   
+  }
+
+body {
+    background-color:whitesmoke; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+    html {
+        overflow-y: scroll; 
+    }
+
+   
+     
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        background: #f1f1f1;
+      }
+
+      input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+      }
+
+#details {
+    border: 0 inset white;
+    border-radius: 8px;
+    background-color: #ddd;
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    
+}
+
+
+.signupbtn {
+    background-color: #5f8ee6;
+    color: white;
+  margin: 8px 0;
+  padding: .5rem 2.5rem;
+  font-size: .95rem;
+  height: 22px;
+    position: absolute;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+    border-radius: 35px;
+    margin-top: 40px;
+  margin-bottom: 20px;
+  background: #d4af7a;
+  text-transform: uppercase;
+}
+  
+  button {
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+
+button:hover {
+    opacity:1;
+  }
+
+.form {
+
+padding: 40px;
+background:rgb(234, 238, 240);
+max-width:600px;
+margin:40px auto;
+border: radius 8px;
+font-family: sans-serif;
+}
